@@ -1,5 +1,5 @@
 
-params:
+params:<br/>
 class ValidationCallback(dataset, interval, metrics, output_file=sys.stdout, save_dir=None, save_metric=0, save_on_minimum=True, transformers=[])
 save_on_minimum：
 if save_on_minimum=False，则会在每个epoch之后保存checkpoint文件，即使性能没有提高。
